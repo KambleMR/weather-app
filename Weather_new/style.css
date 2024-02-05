@@ -1,0 +1,139 @@
+* {
+     margin: 0;
+     padding: 0;
+   }
+
+   body {
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     background: lightgoldenrodyellow;
+   }
+
+   .appContainer {
+     width: 320px;
+     border: .125px solid #222;
+     padding: 10px;
+     background: linear-gradient(gold, aqua);
+     border-radius: 4px;
+     box-shadow: 1px 1px 5px #000;
+
+   }
+
+   h1 {
+     text-align: center;
+     color: #CC150E;
+     font-size: 1.5em;
+     text-shadow: 1px 1px #040833;
+   }
+
+   form {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 3px;
+     gap: 4px;
+     border: .125px solid #222;
+     background: #fff;
+     border-radius: 4px;
+
+   }
+
+   input[type="text"] {
+     width: 100%;
+     padding: 3px;
+     font-size: 1.3em;
+     background: inherit;
+     border: none;
+     outline: none;
+   }
+
+   input[type="submit"] {
+     background: green;
+     padding: 3px 5px;
+     font-size: 1.1em;
+     border-radius: 5px;
+     color: #ff0;
+     border: 1px solid #ddd;
+     outline: none;
+     font-weight: 600;
+     transition: .250s;
+   }
+
+   input[type="submit"]:hover {
+     background: #0CE535;
+     border: 1px solid green;
+   }
+
+   .wheatherImg {
+     width: 40%;
+     filter: drop-shadow(0px 4px 4px #000)contrast(200%);
+
+   }
+
+   .temp {
+     font-size: 2em;
+     font-weight: 700;
+     color: #fff;
+     text-shadow: 1px 2px #000;
+     -webkit-text-stroke: .5px #f00;
+   }
+
+   .detailPart {
+     display: none;
+     transition: all .5s;
+
+   }
+
+   .Active {
+     display: block;
+
+   }
+
+   .extradetails {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-block: 10px;
+   }
+
+   .extradetails div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+   }
+
+   .extradetails div img {
+     width: 40px;
+   }
+
+   .extradetails div div {
+     display: block;
+   }
+
+   p {
+     font-size: 1.1em;
+     font-weight: 800;
+     color: #000;
+     -webkit-text-stroke: .3px #fff;
+
+   }
+
+   span {
+     color: #00f;
+     font-size: 1.2em;
+     font-weight: 800;
+     text-shadow: 1px 1px #fff;
+
+   }
+
+   .description {
+     color: #fff;
+     text-transform: capitalize;
+     font-size: 18px;
+     font-weight: 600;
+     text-shadow: 1px 1px #000;
+   }
